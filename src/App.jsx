@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import TextUotput from './components/textUotput'
-import TextInput from'./components/textInput'
-import Buttens from'./components/buttens'
+import TextUotput from './components/TextOutput'
+import TextInput from'./components/TextInput'
+import Buttens from'./components/Buttons'
 import './App.css'
 
 function App() {
