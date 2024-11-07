@@ -1,5 +1,5 @@
 import React from 'react'
-import Buttens from './buttens'
+import Buttens from './Buttons'
 
 describe('<Buttens />', () => {
   it('renders', () => {
