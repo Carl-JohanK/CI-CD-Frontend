@@ -10,7 +10,7 @@ describe('<App />', () => {
     it('all components on encrypt', () => {
       cy.mount(<App />)
 
-      cy.get('#test-input').type('test this')
+      cy.get('#text-input').type('test this')
       cy.get('#key-input').type('h4jd4f')
 
       cy.get('#encrypt').click()
@@ -20,7 +20,7 @@ describe('<App />', () => {
     it('all components on decrypt', () => {
       cy.mount(<App />)
 
-      cy.get('#test-input').type('test this')
+      cy.get('#text-input').type('test this')
       cy.get('#key-input').type('h4jd4f')
 
       cy.get('#decrypt').click()
